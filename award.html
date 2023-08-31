@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CX | Award</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/CX_Logo(white).svg">
+    <link rel="stylesheet" href="assets/style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- navbar -->
+    <nav>
+        <div class="logo">
+            <img src="assets/img/CX_Logo.svg" alt="CX_Logo" class="nav-logo">
+        </div>
+        <div class="link">
+            <ul>
+                <li><a href="index.html">About</a></li>
+                <li><a href="experiences.html">Experiences</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="interest.html">Interest</a></li>
+                <li><a href="award.html" class="active-tabs">Award<hr class="active-tabs"></a></li>
+            </ul>
+        </div>
+        <div class="contact">
+            <a href="contact.html">Contact Us</a>
+        </div>
+    </nav>
+    <!-- content -->
+    <div class="container paddingFix">
+        <div class="titleExp">
+            <h1><span id="typed"></span></h1>
+        </div>        
+        <div class="desc ed-desc">
+            <div class="img-desc-aw">
+                <img src="assets/img/IF_Design_Award.png" alt="iF Design Award" style="width: 100%;">
+            </div>
+            <div class="text-desc-aw">
+                <h2 class="subtitle">iF Design Award 2022</h2>                
+                <hr class="hrLength-aw">
+                <p class="notes-aw">Berlin, Germany</p>                
+            </div>
+        </div>
+        <div class="desc ed-desc">
+            <div class="img-desc-aw">
+                <img src="assets/img/UX_Design_Award.png" alt="UX Design Award" style="width: 100%;">
+            </div>
+            <div class="text-desc-aw">
+                <h2 class="subtitle">iF Design Award 2020</h2>                
+                <hr class="hrLength-aw">
+                <p class="notes-aw">Online</p>                
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <footer>
+        <p>© Copyright 2023 CX. All rights reserved.</p>
+    </footer>
+
+    <script src="node_modules/typed.js/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#typed', {
+            strings: [
+                'Award.'
+            ],
+            typeSpeed: 70,
+            backSpeed: 70,
+            loop: true,
+            loopCount: Infinity    
+        });
+    </script>
+</body>
+</html>

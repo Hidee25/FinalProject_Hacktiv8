@@ -1,0 +1,364 @@
+* {
+    margin:  0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+/* Navbar */
+nav {
+    padding: 0px 160px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow:
+    0px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+    0px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+    0px 100px 80px rgba(0, 0, 0, 0.07);
+    top: 0;
+    width: 100%;
+    position: fixed;
+    backdrop-filter: blur(8px);    
+}
+
+nav ul {
+    margin: 0;
+    display: flex;
+}
+
+nav ul li{    
+    list-style-type: none;    
+    padding: 16px;
+}
+
+nav ul li:hover{
+    background-color: rgba(196, 196, 196, 0.747);
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.nav-logo {    
+    height: 32px;    
+}
+
+.logo{
+    display: flex;
+    height: 57px;
+    justify-content: center;
+    align-items: center;    
+}
+
+.contact{
+    display: flex;
+    align-items: center;
+}
+
+.contact a {
+    padding: 16px;    
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.contact a:hover {
+    background-color: rgba(196, 196, 196, 0.747);
+}
+
+/* h1 reset margin to 0 */
+h1 {
+    margin: 0;    
+}
+
+/* container */
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 59px;
+}
+
+/* content in index.html */
+.jumbotron {    
+    margin: 80px auto;  
+    font-size: 48px;
+    text-align: left;
+    font-weight: 600;
+}
+
+.jumbotron h1 {
+    font-weight: 600;
+    font-size: 61px;
+}
+
+.content {    
+    display: flex;
+    flex-direction: row;    
+    border-bottom: 1px solid rgba(157, 157, 157, 0.826);
+    border-top: 1px solid rgba(157, 157, 157, 0.826);
+    margin-bottom: 80px;
+}
+
+.left-side {
+    width: 75%;
+    display: flex;    
+}
+
+.right-side {
+    width: 25%;
+    display: flex;    
+}
+
+.img-content {
+    width: 100%;    
+}
+
+.rightContent{
+    display: flex;
+    margin: auto;
+}
+.rightContent p {
+    font-size: 16px;
+    line-height: normal;    
+    height: 100px;
+    width: 300px;
+    text-align: left;
+    margin: auto;    
+}
+
+.rightContent hr {
+    width: 4px;
+    border-radius: 4px;
+    border: 0px;
+    background-color: rgba(128, 128, 128, 0.305);
+    height: 200px;
+    margin-right: 32px;
+}
+
+.me {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.me h2 {
+    font-size: 31px;
+    font-weight: 600;
+}
+
+.me p {    
+    font-size: 16px;
+    font-weight: 200;
+}
+
+.socialMedia {
+    margin-top: 16px;
+}
+
+.socialMedia a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.35);
+    margin-right: 16px;
+}
+
+.socialMedia a:hover {
+    color: rgba(0, 0, 0, 0.697);
+    box-shadow:
+    0px 1.3px 5.3px rgba(0, 0, 0, 0.101),
+    0px 4.5px 17.9px rgba(0, 0, 0, 0.149),
+    0px 20px 80px rgba(0, 0, 0, 0.25);
+}
+
+/* content in experiences.html */
+.paddingFix {
+    padding: 59px 160px 0px 160px;
+}
+
+.titleExp {
+    margin: 40px 0px;
+}
+
+.titleExp h1 {
+    font-size: 48px;
+    font-weight: 600;    
+}
+
+.hrLength-ex {
+    width: 430px;
+    margin-top: 8px;
+}
+
+/* adds experiences */
+.desc {
+    margin-bottom: 40px;    
+    padding: 16px;
+    border-radius: 16px;    
+    box-shadow:
+    0.9px 1.6px 5.3px rgba(0, 0, 0, 0.061),
+    3.1px 5.4px 17.9px rgba(0, 0, 0, 0.089),
+    14px 24px 80px rgba(0, 0, 0, 0.15);
+}
+
+.desc-text {
+    font-size: 16px;
+    color: rgb(55, 55, 55);
+}
+
+.notes {
+    color: rgba(0, 0, 0, 0.815);
+    font-size: 16px;
+    font-weight: 200;
+    margin-top: 8px;
+}
+
+.subtitle {
+    font-size: 24px;
+    font-weight: 500;
+    color: rgb(55, 55, 55);
+}
+
+/* content in education.html */
+
+.hrLength-ed {
+    width: 710px;
+    margin-top: 8px;
+}
+
+.uni-desc {
+    font-size: 16px;
+    font-weight: 300;
+    color: rgb(55, 55, 55);
+    margin: 8px 0px;
+}
+
+.ed-desc {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 32px;
+}
+
+.text-desc {
+    width: 80%;
+    margin-right: 32px;
+}
+
+.img-desc {
+    width: 20%;    
+}
+
+/* content in skills.html */
+.hrLength-sk {
+    width: 200px;
+    margin-top: 8px;
+}
+
+/* content in award.html */
+.text-desc-aw {
+    width: 80%;
+    margin: 0px;
+}
+
+.img-desc-aw {
+    width: 20%;
+    margin-right: 32px;
+    display: flex;
+}
+
+.hrLength-aw {
+    width: 300px;
+}
+
+.notes-aw {
+    color: rgba(0, 0, 0, 0.815);    
+    font-weight: 300;
+    margin-top: 8px;
+    font-size: 20px;
+}
+
+/* content in contact.html */
+.wrap {    
+    margin:  0px auto;
+    justify-content: center;
+    padding: 16px;    
+    border-radius: 10px;
+    box-shadow:
+    2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+    6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+    12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+    22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042);
+}
+
+.titleContact {
+    margin: 40px auto;
+}
+
+.titleExp h1 {
+    font-size: 35px;
+    font-weight: 600;    
+}
+
+.input {
+    color: rgb(139, 139, 139);         
+    border-radius: 5px;
+    border: 0px;
+    width: 500px;
+    padding: 6px;
+    font-size: 15px;
+    box-shadow:
+    4.7px 4.7px 5.3px rgba(0, 0, 0, 0.028),
+    15.6px 15.6px 17.9px rgba(0, 0, 0, 0.042),
+    70px 70px 80px rgba(0, 0, 0, 0.07); 
+}
+
+button {
+    margin-top: 8px;
+    font-size: 15px;
+    color: white;
+    background-color: #7954ff;
+    border: 0px;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+label {
+    font-size: 16px;
+    color: rgb(67, 67, 67);
+}
+
+button:hover {
+    background-color: #5f41cc;
+}
+
+/* footer */
+footer {    
+    border-top: 1px solid rgba(0, 0, 0, 0.16);
+    display: flex;
+    justify-content: center;
+    padding: 20px;    
+    color: rgb(92, 92, 92);
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.footerFix {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/* adds */
+.active-tabs {
+    color: #4700D8;
+}
